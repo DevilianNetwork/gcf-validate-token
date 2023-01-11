@@ -1,0 +1,18 @@
+{
+    "name": "devilian/gcf-validate-network",
+    "description": "Validate Identity Platform idToken on Cloud Functions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devilian\\GcfValidateNetwork\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Devilian Network",
+            "email": "me@devilian.com"
+        }
+    ],
+    "require": {}
+}
