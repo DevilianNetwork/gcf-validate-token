@@ -2,7 +2,12 @@
     "name": "devilian/gcf-validate-token",
     "description": "Validate Identity Platform idToken on Cloud Functions",
     "type": "library",
+    "keywords": ["gcf", "idp", "token", "jwt"],
     "license": "MIT",
+    "require": {
+        "php": ">= 7.4"
+    },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Devilian\\GcfValidateNetwork\\": "src/"
@@ -13,9 +18,5 @@
             "name": "Devilian Network",
             "email": "me@devilian.com"
         }
-    ],
-    "require": {
-        "php": ">= 7.4"
-    },
-    "minimum-stability": "dev"
+    ]
 }
