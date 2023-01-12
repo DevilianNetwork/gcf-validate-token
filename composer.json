@@ -1,5 +1,5 @@
 {
-    "name": "devilian/gcf-validate-network",
+    "name": "devilian/gcf-validate-token",
     "description": "Validate Identity Platform idToken on Cloud Functions",
     "type": "library",
     "license": "MIT",
@@ -14,5 +14,8 @@
             "email": "me@devilian.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">= 7.4"
+    },
+    "minimum-stability": "dev"
 }
